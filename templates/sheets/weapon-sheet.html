@@ -1,0 +1,58 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{ localize 'rmfbytucansilver.weapon.attackWith' }}</th>
+                <th>{{localize "rmfbytucansilver.weapon.damage"}}</th>
+                <th>{{localize "rmfbytucansilver.weapon.cost"}}</th>
+                <th>{{localize "rmfbytucansilver.weapon.weapoinType"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.attackWith">
+                        {{#select data.attackWith}}
+                        {{#each config.attackTypes as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" />
+                </td>
+            </tr>
+            <tr>
+                <th>{{localize "rmfbytucansilver.weapon.weight"}}</th>
+                <th>{{localize "rmfbytucansilver.weapon.breakageNumbers"}}</th>
+                <th>{{localize "rmfbytucansilver.weapon.weaponStrength"}}</th>
+                <th>{{localize "rmfbytucansilver.weapon.fumble"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+            </tr>
+        </table>
+        <textarea name="data.note">{{data.note}}</textarea>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>

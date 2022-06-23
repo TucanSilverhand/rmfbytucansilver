@@ -1,0 +1,35 @@
+{
+    "rmfbytucansilver": {
+        "attack": {
+            "none": "",
+            "mace": "Mace",
+            "club": "Club",
+            "morningStar": "Morning star",
+            "sword": "Sword",
+            "dagger": "Dagger",
+            "quarterstave": "Quarterstave",
+            "flail": "Flail",
+            "twoHandedSword": "Two-handed sword",
+            "bow": "Bow",
+            "crossbow": "Crossbow",
+            "sling": "Sling",
+            "halberd": "Halberd",
+            "pike": "Pike",
+            "glaiveGuisarme": "Glaive-guisarme",
+            "throwKnife": "Throw knife",
+            "dart": "Dart",
+            "javelin": "Javelin"
+        },
+        "weapon": {
+            "attackWith": "Attack with:", 
+            "damage": "Damage",
+            "cost": "Cost",
+            "weapoinType": "Weapon type:",
+            "weight": "Weight",
+            "breakageNumbers": "Breakage Numbers",
+            "weaponStrength": "Weapon Strength",
+            "fumble": "Fumbre",
+            "note": "Note"
+        }
+    }
+}
