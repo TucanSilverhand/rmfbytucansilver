@@ -2,78 +2,48 @@
     "Actor": {},
     "Item": {
         "types": [
-            "weapon",
-            "armor",
-            "accesory",
-            "tansport",
-            "herb",
-            "poison"
+            "itemWeapon",
+            "itemArmor",
+            "itemAccesory",
+            "itemHerb",
+            "itemPoison"
         ],
         "templates": {
-            "itemDescription": {
-                "description": ""
+            "base": {
+                "cost": 0,
+                "weight": 0,
+                "description": "Nothing here."
             }
         },
-        "weapon": {
-            "templates": [
-                "itemDescription"
-            ],
-            "attackWith": "swords", 
+        "itemWeapon": {
+            "templates": [ "base" ],
+            "attackWith": "sword", 
             "damage": 0,
-            "cost": 0,
-            "weapoinType": "1he",
-            "weight": 0,
+            "weaponType": "1he",
             "breakageNumbers": 0,
             "weaponStrength": 0,
-            "fumble": 0,
-            "note": "nothing here"
+            "fumble": 0
         },
-        "armor": {
-            "templates": [
-                "itemDescription"
-            ],
-            "armorType": 0,
-            "cost": 0,
-            "weight": 0,
-            "note": "nothing here"
+        "itemArmor": {
+            "templates": [ "base" ],
+            "armorType": 0
         },
-        "accesory": {
-            "templates": [
-                "itemDescription"
-            ],
-            "cost": 0,
-            "weight": 0,
-            "note": "nothing here"
+        "itemAccesory": {
+            "templates": [ "base" ]
         },
-        "tansport": {
-            "templates": [
-                "itemDescription"
-            ],
-            "cost": 0,
-            "movement1": 0,
-            "movement2": 0,
-            "maniobrability": 0,
-            "height": 0,
-            "weight": 0,
-            "capacoty": 0,
-            "offensiveBonus": 0,
-            "note": "nothing here"
-        },
-        "herb": {
+        "itemHerb": {
+            "templates": [ "base" ],
             "codes": "no codes",
             "form": "bread",
             "preparation": "ingest",
-            "cost": 0,
-            "aditionFactor": 0,
-            "effect": "nothing here"
+            "aditionFactor": 0
         },
-        "poison": {
+        "itemPoison": {
+            "templates": [ "base" ],
             "codes": "no codes",
             "form": "bread",
             "preparation": "ingest",
-            "cost": 0,
-            "aditionFactor": 0,
-            "effect": "nothing here"
+            "aditionFactor": 0
         }
     }
 }

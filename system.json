@@ -3,7 +3,7 @@
     "title": "Rolemaster Fantasy by TucanSilver",
     "description": "A system for playing Rolemaster Fantasy.",
     "author": "TucanSilver",
-    "version": 0.001,
+    "version": 0.002,
     "minimumCoreVersion": "0.  9.245",
     "compatibleCoreVersion": "9",
     "esmodules": [

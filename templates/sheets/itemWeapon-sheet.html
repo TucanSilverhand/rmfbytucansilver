@@ -1,0 +1,64 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize 'rmfbytucansilver.i18ItemWeapon.attackWith' }}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.damage"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.cost"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.weaponType"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.attackWith">
+                        {{#select data.attackWith}}
+                        {{#each config.attackTypes as |name attackType|}}
+                        <option value="{{attackType}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <select name="data.weaponType">
+                        {{#select data.weaponType}}
+                        {{#each config.weaponTypes as |name weaponType|}}
+                        <option value="{{weaponType}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.weight"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.breakageNumbers"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.weaponStrength"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemWeapon.fumble"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.breakageNumbers" type="text" value="{{data.breakageNumbers}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.weaponStrength" type="text" value="{{data.weaponStrength}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.fumble" type="text" value="{{data.fumble}}" data-dtype="Number" />
+                </td>
+            </tr>
+        </table>
+        <p>{{localize "rmfbytucansilver.i18ItemWeapon.description"}}</p>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>

@@ -1,6 +1,6 @@
 {
     "rmfbytucansilver": {
-        "attack": {
+        "i18AttackType": {
             "none": "",
             "mace": "Mace",
             "club": "Club",
@@ -16,20 +16,27 @@
             "halberd": "Halberd",
             "pike": "Pike",
             "glaiveGuisarme": "Glaive-guisarme",
-            "throwKnife": "Throw knife",
+            "thrownKnife": "Thrown knife",
             "dart": "Dart",
             "javelin": "Javelin"
         },
-        "weapon": {
-            "attackWith": "Attack with:", 
+        "i18ItemWeapon": {
+            "attackWith": "Attack with", 
             "damage": "Damage",
             "cost": "Cost",
-            "weapoinType": "Weapon type:",
+            "weaponType": "Weapon type",
             "weight": "Weight",
             "breakageNumbers": "Breakage Numbers",
             "weaponStrength": "Weapon Strength",
             "fumble": "Fumbre",
-            "note": "Note"
+            "description": "Description"
+        },
+       "i18WeaponType": {
+            "oneHandEdge": "One hand edge",
+            "oneHandConcussion": "One hand concussion",
+            "twoHands": "Two hands",
+            "thrown": "Thrown",
+            "polearm": "Polearm"
         }
     }
 }
