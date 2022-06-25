@@ -1,0 +1,53 @@
+{
+    "rmfbytucansilver": {
+        "i18ItemComun": {
+            "cost": "Precio",
+            "weight": "Peso",
+            "description": "Descripción"
+        },
+        "i18ItemWeapon": {
+            "attackWith": "Ataque con", 
+            "damage": "Daño",
+            "weaponType": "Tipo de arma",
+            "breakageNumbers": "Rotura",
+            "weaponStrength": "Aguante",
+            "fumble": "Pifia",
+            "attackTypes": {
+                "none": "",
+                "mace": "Maza",
+                "club": "Garrote",
+                "morningStar": "Estrella de la mañana",
+                "sword": "Espada",
+                "dagger": "Daga",
+                "quarterstave": "Cayado",
+                "flail": "Mangual",
+                "twoHandedSword": "Espadon",
+                "bow": "Arco",
+                "crossbow": "Ballesta",
+                "sling": "Honda",
+                "halberd": "Alabarda",
+                "pike": "Pica",
+                "glaiveGuisarme": "Glaive-guisarme",
+                "thrownKnife": "Arrojar cuchillo",
+                "dart": "Dardo",
+                "javelin": "Javalina"
+            },
+            "weaponTypes": {
+                "oneHandEdge": "1 mano - Filo",
+                "oneHandConcussion": "1 mano - Contundente",
+                "twoHands": "Dos manos",
+                "thrown": "Arrojadiza",
+                "polearm": "Proyectil"
+            }
+        },
+        "i18ItemArmor": {
+            "armorType": "Tipo de armadura"
+        },
+        "i18ItemHerbPoison": {
+            "codes": "Codigo",
+            "form": "Forma",
+            "preparation": "Preparación",
+            "aditionFactor": "Factor de adicción"
+        }
+    }
+}

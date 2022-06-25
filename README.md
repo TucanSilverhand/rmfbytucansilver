@@ -1,3 +1,6 @@
+v0.001.004
+Añado la traducion al español de lo que llevo hecho.
+
 v0.001.003
 He creado todos los tipos de objetos.
 Esta claro que habra que modificar alguno para que salga una lista de cosas, pero por ahora me vale.
