@@ -1,15 +1,17 @@
 {
     "rmfbytucansilver": {
+        "i18ItemComun": {
+            "cost": "Cost",
+            "weight": "Weight",
+            "description": "Description"
+        },
         "i18ItemWeapon": {
             "attackWith": "Attack with", 
             "damage": "Damage",
-            "cost": "Cost",
             "weaponType": "Weapon type",
-            "weight": "Weight",
             "breakageNumbers": "Breakage Numbers",
             "weaponStrength": "Weapon Strength",
             "fumble": "Fumbre",
-            "description": "Description",
             "attackTypes": {
                 "none": "",
                 "mace": "Mace",
@@ -37,6 +39,15 @@
                 "thrown": "Thrown",
                 "polearm": "Polearm"
             }
+        },
+        "i18ItemArmor": {
+            "armorType": "Armor type"
+        },
+        "i18ItemHerbPoison": {
+            "codes": "Codes",
+            "form": "Form",
+            "preparation": "Preparation",
+            "aditionFactor": "Adition factor"
         }
     }
 }

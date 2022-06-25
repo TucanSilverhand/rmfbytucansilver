@@ -1,3 +1,7 @@
+v0.001.003
+He creado todos los tipos de objetos.
+Esta claro que habra que modificar alguno para que salga una lista de cosas, pero por ahora me vale.
+
 v0.001.002
 Me acabo de dar cuenta de que no puedo cambiar la version del sistema asi como asi, porque intenta hacer algun tipo de conversion y al no existir todos los elementos falla la carga del sistema.
 He recolocado mejor las traducciones, ahora estan anidadas dentro del tipo de objeto que es.

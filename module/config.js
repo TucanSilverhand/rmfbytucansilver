@@ -1,6 +1,6 @@
 export const rmfbytucansilver = {};
 
-rmfbytucansilver.attackTypes = {
+rmfbytucansilver.weaponAttackTypes = {
     none: "",
     mace: "rmfbytucansilver.i18ItemWeapon.attackTypes.mace",
     club: "rmfbytucansilver.i18ItemWeapon.attackTypes.club",

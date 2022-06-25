@@ -1,0 +1,24 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "rmfbytucansilver.i18ItemComun.cost"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemComun.weight"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="Number" />
+                </td>
+            </tr>
+        </table>
+        <p>{{localize "rmfbytucansilver.i18ItemComun.description"}}</p>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>

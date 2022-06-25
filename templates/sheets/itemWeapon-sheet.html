@@ -8,14 +8,14 @@
             <tr>
                 <th>{{localize 'rmfbytucansilver.i18ItemWeapon.attackWith' }}</th>
                 <th>{{localize "rmfbytucansilver.i18ItemWeapon.damage"}}</th>
-                <th>{{localize "rmfbytucansilver.i18ItemWeapon.cost"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemComun.cost"}}</th>
                 <th>{{localize "rmfbytucansilver.i18ItemWeapon.weaponType"}}</th>
             </tr>
             <tr>
                 <td>
                     <select name="data.attackWith">
                         {{#select data.attackWith}}
-                        {{#each config.attackTypes as |name attackType|}}
+                        {{#each config.weaponAttackTypes as |name attackType|}}
                         <option value="{{attackType}}">{{localize name}}</option>
                         {{/each}}
                         {{/select}}
@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <th>{{localize "rmfbytucansilver.i18ItemWeapon.weight"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemComun.weight"}}</th>
                 <th>{{localize "rmfbytucansilver.i18ItemWeapon.breakageNumbers"}}</th>
                 <th>{{localize "rmfbytucansilver.i18ItemWeapon.weaponStrength"}}</th>
                 <th>{{localize "rmfbytucansilver.i18ItemWeapon.fumble"}}</th>
@@ -58,7 +58,7 @@
                 </td>
             </tr>
         </table>
-        <p>{{localize "rmfbytucansilver.i18ItemWeapon.description"}}</p>
+        <p>{{localize "rmfbytucansilver.i18ItemComun.description"}}</p>
         <textarea name="data.description">{{data.description}}</textarea>
     </div>
 </form>

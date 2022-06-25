@@ -1,0 +1,44 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2">{{localize "rmfbytucansilver.i18ItemComun.cost"}}</th>
+                <th colspan="2">{{localize "rmfbytucansilver.i18ItemComun.weight"}}</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="Number" />
+                </td>
+                <td colspan="2">
+                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="Number" />
+                </td>
+            </tr>
+            <tr>
+                <th>{{localize "rmfbytucansilver.i18ItemHerbPoison.codes"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemHerbPoison.aditionFactor"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemHerbPoison.form"}}</th>
+                <th>{{localize "rmfbytucansilver.i18ItemHerbPoison.preparation"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <input name="data.codes" type="text" value="{{data.codes}}" data-dtype="Text" />
+                </td>
+                <td>
+                    <input name="data.aditionFactor" type="text" value="{{data.aditionFactor}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.form" type="text" value="{{data.form}}" data-dtype="Text" />
+                </td>
+                <td>
+                    <input name="data.preparation" type="text" value="{{data.preparation}}" data-dtype="Text" />
+                </td>
+            </tr>
+        </table>
+        <p>{{localize "rmfbytucansilver.i18ItemComun.description"}}</p>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>
