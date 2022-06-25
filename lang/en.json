@@ -1,25 +1,5 @@
 {
     "rmfbytucansilver": {
-        "i18AttackType": {
-            "none": "",
-            "mace": "Mace",
-            "club": "Club",
-            "morningStar": "Morning star",
-            "sword": "Sword",
-            "dagger": "Dagger",
-            "quarterstave": "Quarterstave",
-            "flail": "Flail",
-            "twoHandedSword": "Two-handed sword",
-            "bow": "Bow",
-            "crossbow": "Crossbow",
-            "sling": "Sling",
-            "halberd": "Halberd",
-            "pike": "Pike",
-            "glaiveGuisarme": "Glaive-guisarme",
-            "thrownKnife": "Thrown knife",
-            "dart": "Dart",
-            "javelin": "Javelin"
-        },
         "i18ItemWeapon": {
             "attackWith": "Attack with", 
             "damage": "Damage",
@@ -29,14 +9,34 @@
             "breakageNumbers": "Breakage Numbers",
             "weaponStrength": "Weapon Strength",
             "fumble": "Fumbre",
-            "description": "Description"
-        },
-       "i18WeaponType": {
-            "oneHandEdge": "One hand edge",
-            "oneHandConcussion": "One hand concussion",
-            "twoHands": "Two hands",
-            "thrown": "Thrown",
-            "polearm": "Polearm"
+            "description": "Description",
+            "attackTypes": {
+                "none": "",
+                "mace": "Mace",
+                "club": "Club",
+                "morningStar": "Morning star",
+                "sword": "Sword",
+                "dagger": "Dagger",
+                "quarterstave": "Quarterstave",
+                "flail": "Flail",
+                "twoHandedSword": "Two-handed sword",
+                "bow": "Bow",
+                "crossbow": "Crossbow",
+                "sling": "Sling",
+                "halberd": "Halberd",
+                "pike": "Pike",
+                "glaiveGuisarme": "Glaive-guisarme",
+                "thrownKnife": "Thrown knife",
+                "dart": "Dart",
+                "javelin": "Javelin"
+            },
+            "weaponTypes": {
+                "oneHandEdge": "One hand edge",
+                "oneHandConcussion": "One hand concussion",
+                "twoHands": "Two hands",
+                "thrown": "Thrown",
+                "polearm": "Polearm"
+            }
         }
     }
 }

@@ -1,4 +1,8 @@
-v0.002
+v0.001.002
+Me acabo de dar cuenta de que no puedo cambiar la version del sistema asi como asi, porque intenta hacer algun tipo de conversion y al no existir todos los elementos falla la carga del sistema.
+He recolocado mejor las traducciones, ahora estan anidadas dentro del tipo de objeto que es.
+
+v0.001.001
 Voy a cambiar las nomenclaturas de las variables, porque ya con pocas veo que cuando haya muchas sera un handicap.
 - Con item para las que saltan del template.json. Por ejemplo itemWeapon.
 - Las que vayan dentro del config por ser grupos, seran en plural. Por ejemplo Attacktypes.
