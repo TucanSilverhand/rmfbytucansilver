@@ -4,8 +4,9 @@ export class RMFbyTucanSilverItemSheet extends ItemSheet {
     }
     
     getData() {
-        const data = super.getData();
-        data.config = CONFIG.rmfbytucansilver;
-        return data;
-    }
+        const context = super.getData();
+        context.config = CONFIG.rmfbytucansilver;
+        context.systemData = context.data.data;
+        return context;
+      }
 }

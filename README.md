@@ -1,19 +1,21 @@
+## v0.001.005
 Tuve que ejecutar en consola: (https://code.visualstudio.com/docs/languages/css#_transpiling-sass-and-less-into-css)
-npm install -g sass less
+Hasta el punto 2, para la instalacion y tal... ahora se regenera el css automaticamente con gulp.
+He cambiado el data.data por systemData en el getData().
 
-# v0.001.004
+## v0.001.004
 Añado la traducion al español de lo que llevo hecho.
 
-# v0.001.003
+## v0.001.003
 He creado todos los tipos de objetos.
 
 Esta claro que habra que modificar alguno para que salga una lista de cosas, pero por ahora me vale.
 
-# v0.001.002
+## v0.001.002
 Me acabo de dar cuenta de que no puedo cambiar la version del sistema asi como asi, porque intenta hacer algun tipo de conversion y al no existir todos los elementos falla la carga del sistema.  
 He recolocado mejor las traducciones, ahora estan anidadas dentro del tipo de objeto que es.
 
-# v0.001.001
+## v0.001.001
 Voy a cambiar las nomenclaturas de las variables, porque ya con pocas veo que cuando haya muchas sera un handicap.
 - Con **item** para las que saltan del template.json. *Por ejemplo itemWeapon*.
 - Las que vayan dentro del config por ser grupos, seran en **plural**. *Por ejemplo Attacktypes*.
@@ -25,6 +27,6 @@ Meto como plantilla los elementos basicos de cada Item: cost, weight y descripti
 Arreglo las traducciones, ahora apunta donde tienen q apuntar.
 > Nota: El problema de las armas y las tablas lo dejo para mas adelante, para no morir en el intento.
 
-# v0.001
+## v0.001
 Creada la estructura del sistema.  
 Creado el primer tipo de objeto de forma basica. Weapon.

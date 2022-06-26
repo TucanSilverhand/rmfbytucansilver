@@ -14,7 +14,7 @@
             <tr>
                 <td>
                     <select name="data.attackWith">
-                        {{#select data.attackWith}}
+                        {{#select systemData.attackWith}}
                         {{#each config.weaponAttackTypes as |name attackType|}}
                         <option value="{{attackType}}">{{localize name}}</option>
                         {{/each}}
@@ -22,14 +22,14 @@
                     </select>
                 </td>
                 <td>
-                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="String" />
+                    <input name="data.damage" type="text" value="{{systemData.damage}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="String" />
+                    <input name="data.cost" type="text" value="{{systemData.cost}}" data-dtype="String" />
                 </td>
                 <td>
                     <select name="data.weaponType">
-                        {{#select data.weaponType}}
+                        {{#select systemData.weaponType}}
                         {{#each config.weaponTypes as |name weaponType|}}
                         <option value="{{weaponType}}">{{localize name}}</option>
                         {{/each}}
@@ -45,20 +45,22 @@
             </tr>
             <tr>
                 <td>
-                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="String" />
+                    <input name="data.weight" type="text" value="{{systemData.weight}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.breakageNumbers" type="text" value="{{data.breakageNumbers}}" data-dtype="String" />
+                    <input name="data.breakageNumbers" type="text" value="{{systemData.breakageNumbers}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.weaponStrength" type="text" value="{{data.weaponStrength}}" data-dtype="String" />
+                    <input name="data.weaponStrength" type="text" value="{{systemData.weaponStrength}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.fumble" type="text" value="{{data.fumble}}" data-dtype="String" />
+                    <input name="data.fumble" type="text" value="{{systemData.fumble}}" data-dtype="String" />
                 </td>
             </tr>
         </table>
-        <p>{{localize "rmfbytucansilver.i18ItemComun.description"}}</p>
-        {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+        <div class="panelBorder sheet-card">
+            <h2>{{localize "rmfbytucansilver.i18ItemComun.description"}}</h2>
+            {{editor content=systemData.description target="data.description" button=true owner=owner editable=editable}}
+        </div>
     </div>
 </form>
