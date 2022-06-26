@@ -1,6 +1,6 @@
 ## v0.001.005
-Tuve que ejecutar en consola: (https://code.visualstudio.com/docs/languages/css#_transpiling-sass-and-less-into-css)
-Hasta el punto 2, para la instalacion y tal... ahora se regenera el css automaticamente con gulp.
+Tuve que ejecutar en consola: (https://code.visualstudio.com/docs/languages/css#_transpiling-sass-and-less-into-css)  
+Hasta el punto 2, para la instalacion y tal... ahora se regenera el css automaticamente con gulp.  
 He cambiado el data.data por systemData en el getData().
 
 ## v0.001.004
