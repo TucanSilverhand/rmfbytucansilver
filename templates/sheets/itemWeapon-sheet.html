@@ -3,7 +3,7 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
     </header>
-    <div>
+    <div class="sheet-content">
         <table>
             <tr>
                 <th>{{localize 'rmfbytucansilver.i18ItemWeapon.attackWith' }}</th>
@@ -22,10 +22,10 @@
                     </select>
                 </td>
                 <td>
-                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="Number" />
+                    <input name="data.cost" type="text" value="{{data.cost}}" data-dtype="String" />
                 </td>
                 <td>
                     <select name="data.weaponType">
@@ -45,20 +45,20 @@
             </tr>
             <tr>
                 <td>
-                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="Number" />
+                    <input name="data.weight" type="text" value="{{data.weight}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.breakageNumbers" type="text" value="{{data.breakageNumbers}}" data-dtype="Number" />
+                    <input name="data.breakageNumbers" type="text" value="{{data.breakageNumbers}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.weaponStrength" type="text" value="{{data.weaponStrength}}" data-dtype="Number" />
+                    <input name="data.weaponStrength" type="text" value="{{data.weaponStrength}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.fumble" type="text" value="{{data.fumble}}" data-dtype="Number" />
+                    <input name="data.fumble" type="text" value="{{data.fumble}}" data-dtype="String" />
                 </td>
             </tr>
         </table>
         <p>{{localize "rmfbytucansilver.i18ItemComun.description"}}</p>
-        <textarea name="data.description">{{data.description}}</textarea>
+        {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
     </div>
 </form>

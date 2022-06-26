@@ -1,3 +1,6 @@
+Tuve que ejecutar en consola: (https://code.visualstudio.com/docs/languages/css#_transpiling-sass-and-less-into-css)
+npm install -g sass less
+
 # v0.001.004
 Añado la traducion al español de lo que llevo hecho.
 

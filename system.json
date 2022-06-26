@@ -4,14 +4,10 @@
     "description": "A system for playing Rolemaster Fantasy.",
     "author": "TucanSilver",
     "version": 0.001,
-    "minimumCoreVersion": "0.  9.245",
+    "minimumCoreVersion": "0.9.245",
     "compatibleCoreVersion": "9",
-    "esmodules": [
-        "rmfbytucansilver.js"
-    ],
-    "styles": [
-        "rmfbytucansilver.css"
-    ],
+    "esmodules": [ "rmfbytucansilver.js" ],
+    "styles": [ "rmfbytucansilver.css" ],
     "packs": [
 
     ],

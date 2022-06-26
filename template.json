@@ -17,9 +17,9 @@
         },
         "itemWeapon": {
             "templates": [ "base" ],
-            "attackWith": "sword", 
+            "attackWith": "", 
             "damage": 0,
-            "weaponType": "1he",
+            "weaponType": "",
             "breakageNumbers": 0,
             "weaponStrength": 0,
             "fumble": 0
