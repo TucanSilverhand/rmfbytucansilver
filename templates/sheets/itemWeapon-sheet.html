@@ -45,22 +45,23 @@
             </tr>
             <tr>
                 <td>
-                    <input name="data.weight" type="text" value="{{systemData.weight}}" data-dtype="String" />
+                    <input name="data.weight" type="text" value="{{systemData.weight}}" data-dtype="Number" />
                 </td>
                 <td>
-                    <input name="data.breakageNumbers" type="text" value="{{systemData.breakageNumbers}}" data-dtype="String" />
+                    <input name="data.breakageNumbers" type="text" value="{{systemData.breakageNumbers}}" data-dtype="Number" />
                 </td>
                 <td>
-                    <input name="data.weaponStrength" type="text" value="{{systemData.weaponStrength}}" data-dtype="String" />
+                    <input name="data.weaponStrength" type="text" value="{{systemData.weaponStrength}}" data-dtype="Number" />
                 </td>
                 <td>
-                    <input name="data.fumble" type="text" value="{{systemData.fumble}}" data-dtype="String" />
+                    <input name="data.fumble" type="text" value="{{systemData.fumble}}" data-dtype="Number" />
                 </td>
             </tr>
         </table>
-        <div class="panelBorder sheet-card">
+        <div>
             <h2>{{localize "rmfbytucansilver.i18ItemComun.description"}}</h2>
             {{editor content=systemData.description target="data.description" button=true owner=owner editable=editable}}
+            <br />&nbsp;<br />&nbsp;<br />&nbsp; 
         </div>
     </div>
 </form>

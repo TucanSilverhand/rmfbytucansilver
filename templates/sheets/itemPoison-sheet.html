@@ -3,7 +3,7 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
     </header>
-    <div>
+    <div class="sheet-content">
         <table>
             <tr>
                 <th colspan="2">{{localize "rmfbytucansilver.i18ItemComun.cost"}}</th>
@@ -25,22 +25,23 @@
             </tr>
             <tr>
                 <td>
-                    <input name="data.codes" type="text" value="{{systemData.codes}}" data-dtype="Text" />
+                    <input name="data.codes" type="text" value="{{systemData.codes}}" data-dtype="String" />
                 </td>
                 <td>
                     <input name="data.aditionFactor" type="text" value="{{systemData.aditionFactor}}" data-dtype="Number" />
                 </td>
                 <td>
-                    <input name="data.form" type="text" value="{{systemData.form}}" data-dtype="Text" />
+                    <input name="data.form" type="text" value="{{systemData.form}}" data-dtype="String" />
                 </td>
                 <td>
-                    <input name="data.preparation" type="text" value="{{systemData.preparation}}" data-dtype="Text" />
+                    <input name="data.preparation" type="text" value="{{systemData.preparation}}" data-dtype="String" />
                 </td>
             </tr>
         </table>
-        <div class="panelBorder sheet-card">
+        <div>
             <h2>{{localize "rmfbytucansilver.i18ItemComun.description"}}</h2>
             {{editor content=systemData.description target="data.description" button=true owner=owner editable=editable}}
+            <br />&nbsp;<br />&nbsp;<br />&nbsp; 
         </div>
     </div>
 </form>

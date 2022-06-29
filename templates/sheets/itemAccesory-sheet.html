@@ -3,7 +3,7 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" \></h1>
     </header>
-    <div>
+    <div class="sheet-content">
         <table>
             <tr>
                 <th>{{localize "rmfbytucansilver.i18ItemComun.cost"}}</th>
@@ -18,9 +18,10 @@
                 </td>
             </tr>
         </table>
-        <div class="panelBorder sheet-card">
+        <div>
             <h2>{{localize "rmfbytucansilver.i18ItemComun.description"}}</h2>
             {{editor content=systemData.description target="data.description" button=true owner=owner editable=editable}}
+            <br />&nbsp;<br />&nbsp;<br />&nbsp; 
         </div>
     </div>
 </form>
